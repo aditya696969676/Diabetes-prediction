@@ -55,3 +55,39 @@ Used **SMOTE (Synthetic Minority Oversampling Technique)** to fix class imbalanc
    pip install -r requirements.txt
 4. streamlit run app.py
 
+📋 Features Used for Prediction
+Feature Name	Description
+Age	Categorical age groups
+Gender	Male / Female
+Pregnancies	Number of times pregnant
+PhysicallyActive	Physical activity status
+JunkFood	Junk food consumption
+Stress	Self-reported stress level
+UriationFreq	Frequency of urination
+BMI	Body Mass Index
+Family_Diabetes	Family history of diabetes
+Smoking	Smoking habits
+Alcohol	Alcohol consumption
+RegularMedicine	Regular medication usage
+Pdiabetes	Prediabetic status (self-reported)
+BPLevel	Blood pressure level
+
+🧠 Model Deployment Logic (Streamlit UI)
+Dropdown inputs for all categorical variables (e.g., Age, Gender, BPLevel).
+
+Number inputs for numerical features (Pregnancies, BMI).
+
+On submit, input values are encoded based on the same mapping used during training.
+
+Prediction result is displayed as either Diabetic or Not Diabetic.
+
+👨‍💻 Author
+Aditya Garg
+
+B.Tech from Delhi Technological University
+
+PG Diploma in Data Science
+
+Proficient in Python, SQL, Power BI, Tableau
+
+Built various ML and dashboarding projects
