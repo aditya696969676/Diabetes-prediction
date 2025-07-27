@@ -52,7 +52,6 @@ Used **SMOTE (Synthetic Minority Oversampling Technique)** to fix class imbalanc
 1. **Clone the repository** or download the files.
 2. Install required Python packages:
    ```bash
-   pip install -r requirements.txt
-
-   streamlit run app.py
+3. pip install -r requirements.txt
+4. streamlit run app.py
 
